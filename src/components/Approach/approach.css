@@ -1,0 +1,43 @@
+
+.approach-description p {
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 20px;
+    text-align: center;
+}
+.approach-img{
+    display: flex;
+}
+.approach-img img{
+    width: 550px;
+    flex-basis: 10%;
+    padding: 10px;
+    border-radius: 20px;
+}
+@media (max-width: 1200px){
+    .approach-img{
+        flex-direction: column;
+    }
+    .member{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+    .approach-img img{
+        width: 100%;
+        padding:  25px 100px;
+    }
+}
+@media (max-width: 1000px){
+    .approach-img img{
+        width: 100%;
+        padding:  25px 75px;
+    }
+
+}
+@media (max-width: 1000px){
+    .approach-img img{
+        width: 100%;
+        padding:  25px 50px;
+    }
+
+}

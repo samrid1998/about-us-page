@@ -1,0 +1,66 @@
+.foundation{
+    width: 90%;
+    display: flex;
+}
+.foundation .foundation1{
+    flex-basis: 40%;
+}
+.foundation .foundation1 h1{
+    font-size: 32px;
+    color: rgb(0, 28, 72);
+}
+.foundation .foundation1 img{
+    width: 100px;
+}
+.foundation .foundation2{
+    flex-basis: 40%;
+    padding-left: 20px;
+    padding-top: 250px;
+}
+.foundation .foundation2 h1{
+    font-size: 32px;
+    color: rgb(0, 28, 72);
+}
+.foundation .foundation2 img{
+    width: 100px;
+}
+.foundation .foundation3{
+    flex-basis: 40%;
+    padding-top: 500px;
+    padding-left: 30px;
+}
+.foundation .foundation3 h1{
+    font-size: 32px;
+    color: rgb(0, 28, 72);
+}
+.foundation .foundation3 img{
+    width: 100px;
+}
+@media(max-width: 995px){
+    .foundation{
+        flex-direction: column;
+    }
+    .foundation .foundation1{
+        padding: 20px 150px;
+    }
+    .foundation .foundation2{
+        padding: 20px 150px;
+    }
+    .foundation .foundation3{
+        padding: 20px 150px;
+    }
+}
+@media(max-width: 770px){
+    .foundation{
+        flex-direction: column;
+    }
+    .foundation .foundation1{
+        padding: 20px 80px;
+    }
+    .foundation .foundation2{
+        padding: 20px 80px;
+    }
+    .foundation .foundation3{
+        padding: 20px 80px;
+    }
+}
